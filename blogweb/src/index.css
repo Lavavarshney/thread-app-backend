@@ -1,0 +1,10 @@
+
+.theme-button {
+  background-color: #fff;
+  color: #333;
+}
+
+.theme-button.dark {
+  background-color: #333;
+  color: #fff;
+}

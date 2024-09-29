@@ -1,0 +1,45 @@
+.container {
+  height: auto; /* Make the container take up the full page height */
+  width: 100vw; /* Make the container take up the full page width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.card{
+  width: 100%;
+}
+
+.card img {
+  width: 100%; /* Make the image take up 25% of the screen width */
+  height: 750px; /* Maintain the image aspect ratio */
+  margin-bottom: 20px; /* Add some space between the image and the content */
+}
+
+
+
+.card-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 25px;
+ 
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}

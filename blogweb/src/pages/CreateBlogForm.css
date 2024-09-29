@@ -1,0 +1,60 @@
+/* CreateBlogForm.css */
+
+.hello {
+    width: 100%; /* Form takes up the entire viewport width */
+    padding: 45px; /* Add padding for better spacing */
+  
+    border-radius: 20px; /* Round the form corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    height: auto; /* Set height to 100% of the viewport */
+    display: flex; /* Use flexbox for better alignment */
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: center; /* Center the form content vertically */
+  }
+  
+  h2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Add spacing below heading */
+   /* color: #333; /* Dark grey color for heading */
+  }
+  
+  div {
+    margin-bottom: 15px; /* Spacing between form fields */
+  }
+  
+  label {
+    display: block; /* Label takes up full width */
+    margin-bottom: 10px; /* Spacing below the label */
+    font-weight: bold; /* Make label bold */
+   
+  }
+  
+  input[type="text"],
+  input[type="file"],
+  textarea {
+    width: 100%; /* Input fields take full width */
+    padding: 10px; /* Padding for better appearance */
+    border: 2px solid #ccc; /* Light grey border */
+    border-radius: 5px; /* Round the input corners */
+    box-sizing: border-box; /* Include padding and border in element width */
+  }
+  
+  textarea {
+    height: 200px; /* Set a default height for the textarea */
+    resize: vertical; /* Allow resizing vertically */
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff; /* Blue background for submit button */
+    justify-content: center;
+    padding: 10px 20px; /* Padding for button */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Round the button corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-weight: bold; /* Make button text bold */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  } 
